@@ -1,0 +1,22 @@
+:root {
+  --item: 1;
+  --indent: 60px;
+  --indent-2: 35px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0 70px;
+}
+
+.inner-wrapper {
+  padding-left: 80px;
+  padding-right: 80px;
+}

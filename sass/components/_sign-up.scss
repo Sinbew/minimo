@@ -1,0 +1,54 @@
+.sign-up-section {
+  padding: 70px 0;
+
+  background-color: #f0f0f0;
+}
+
+.sign-up-title {
+  font-size: 30px;
+  font-weight: 400;
+
+  color: #333333;
+
+  margin-bottom: 70px;
+
+  text-align: center;
+  letter-spacing: 0.025em;
+}
+
+.sign-up-form {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  position: relative;
+}
+
+.send-email-button {
+  position: absolute;
+
+  right: 30%;
+  bottom: 13px;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.sign-up-input {
+  background-color: transparent;
+
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #333333;
+
+  padding: 10px 0;
+
+  width: 360px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #626262;
+}

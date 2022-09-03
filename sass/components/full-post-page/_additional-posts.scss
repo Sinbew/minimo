@@ -1,0 +1,35 @@
+.additional-posts-section {
+  background-color: #f5f5f5;
+
+  padding: 60px 0 85px 0;
+}
+
+.additional-posts-title {
+  margin-bottom: 40px;
+
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+
+  color: #b4ad9e;
+}
+
+.additional-post-list {
+  display: flex;
+  gap: 35px;
+
+  --item: 3;
+}
+
+.additional-post-item {
+  flex-basis: calc((100% - var(--indent-2) * (var(--item) - 1)) / var(--item));
+}
+
+.additional-post-subtile {
+  margin-top: 20px;
+
+  font-size: 20px;
+  font-weight: 400;
+
+  color: #626262;
+}

@@ -1,0 +1,181 @@
+.comments-section {
+  padding: 60px 0 85px 0;
+}
+
+.comments-title {
+  margin-bottom: 25px;
+
+  font-family: 'Ubuntu';
+  font-size: 14px;
+  font-weight: 300;
+
+  color: #b4ad9e;
+}
+
+.comments-list {
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+
+.comments-list-item {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 30px;
+}
+.user-comment-wrapper {
+}
+
+.user-name {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #626262;
+}
+
+.user-photo-cover {
+  position: relative;
+  background-color: #cae5e0;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+
+.user-photo-cover::before {
+  content: 'JD';
+  top: 50%;
+  left: 50%;
+  position: absolute;
+
+  transform: translateX(-50%) translateY(-50%);
+
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.user-photo-cover-2 {
+  position: relative;
+  background-color: #ededea;
+  width: 70px;
+  height: 70px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+
+.user-photo-cover-2::before {
+  content: 'JD';
+  top: 50%;
+  left: 50%;
+  position: absolute;
+
+  transform: translateX(-50%) translateY(-50%);
+
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.user-comment-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+
+  line-height: 1.7;
+
+  margin-bottom: 15px;
+}
+
+.reply-button {
+  padding: 0;
+
+  background-color: transparent;
+  border: none;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Ubuntu';
+
+  color: #b4ad9e;
+
+  cursor: pointer;
+}
+
+.comments-form-wrapper {
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+}
+
+.comments-list-item {
+}
+
+.comment-form {
+  width: 100%;
+}
+
+.comment-input {
+  width: 100%;
+  padding: 20px 25px;
+
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+}
+
+.comment-input:focus {
+  outline: none;
+  border: 1px solid #d6d6d6;
+}
+
+.comment-input::placeholder {
+  color: #d6d6d6;
+
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.connected-with-container {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.connected-with-title {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 14px;
+
+  color: #b4ad9e;
+}
+
+.connected-with-socials {
+  display: flex;
+}
+
+.connected-with-socials li {
+  padding: 5px;
+}
+
+.connected-with-svg {
+  fill: #c8c8c8;
+  transition: 0.3s;
+  &:hover {
+    fill: #626262;
+  }
+}

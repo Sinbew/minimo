@@ -1,0 +1,84 @@
+.photodiary-post-section {
+  padding-top: 98px;
+  padding-bottom: 70px;
+}
+
+.photodiary-images-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 60px;
+}
+
+.full-photodiary-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
+  color: #626262;
+
+  margin-bottom: 30px;
+}
+
+.photodiary-text-additional {
+  margin-bottom: 60px;
+}
+
+.photodiary-final-image {
+}
+
+.final-image-text-em {
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0 20px;
+
+  color: #626262;
+}
+
+.photodiary-share-post {
+  display: flex;
+  justify-content: end;
+
+  gap: 10px;
+}
+
+.full-photodiary-text-end {
+  margin-bottom: 60px;
+}
+
+.photodiary-share-post p {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 1.8;
+
+  text-transform: uppercase;
+
+  color: #b4ad9e;
+}
+
+.photodiary-socials-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.photodiary-socials-item {
+  padding: 1px;
+}
+
+.photodiary-social-icon {
+  fill: #b4ad9e;
+
+  transition: 0.3s;
+
+  &:hover {
+    fill: #968f81;
+  }
+}

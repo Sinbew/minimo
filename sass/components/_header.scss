@@ -1,0 +1,39 @@
+header {
+  padding: 70px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  color: black;
+  letter-spacing: 0.3em;
+
+  transition: 0.3s;
+  &:hover {
+    color: #b4ad9e;
+  }
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+.nav-list a {
+  color: #626262;
+
+  font-size: 14px;
+  line-height: 1.7;
+
+  text-transform: uppercase;
+}
