@@ -20,6 +20,7 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 p {
@@ -416,6 +417,109 @@ header {
 }
 .connected-with-svg:hover {
   fill: #626262;
+}
+
+.photodiary-sidebar-section {
+  padding-top: 98px;
+  padding-bottom: 110px;
+}
+
+.inner-wrapper-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.photodiary-last-image-sidebar {
+  max-width: 661px;
+}
+
+.photodiary-images-container-sidebar {
+  max-width: 661px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.full-post-description-sidebar {
+  max-width: 661px;
+}
+
+.sidebar {
+  max-width: 272px;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+
+.sidebar-top-posts {
+  margin-top: 65px;
+  margin-bottom: 50px;
+}
+
+.about-author-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 0.8;
+  color: #626262;
+}
+
+.about-author-text {
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.66;
+  color: #626262;
+}
+
+.about-author-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.about-author-socials svg {
+  fill: #b4ad9e;
+  transition: 0.3s;
+}
+.about-author-socials svg:hover {
+  fill: #626262;
+}
+
+.sidebar-top-posts-title {
+  margin-bottom: 30px;
+  font-family: "Ubuntu";
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+}
+
+.sidebar-top-posts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sidebar-top-posts-item p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.sidebar-top-posts-link {
+  font-family: "Ubuntu";
+  font-size: 12px;
+  font-weight: 300;
+  color: #b4ad9e;
+  transition: 0.3s;
+}
+.sidebar-top-posts-link:hover {
+  color: #626262;
 }
 
 .posts-section {
