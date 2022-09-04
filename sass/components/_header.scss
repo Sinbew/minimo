@@ -1,5 +1,5 @@
-header {
-  padding: 70px 0;
+.header {
+  padding: 35px 0;
 }
 
 .header-container {
@@ -36,4 +36,44 @@ header {
   line-height: 1.7;
 
   text-transform: uppercase;
+}
+
+.photodiary-header-sidebar-link {
+  display: none;
+  transform: scale(0.3);
+
+  transition: 0.3s;
+}
+
+.nav-list-link {
+  display: block;
+  padding: 35px 0;
+
+  cursor: pointer;
+}
+
+.nav-list-item-sidebar {
+  transition: 0.3s;
+  position: relative;
+}
+
+.nav-list-item-sidebar:hover .photodiary-header-sidebar-link {
+  position: absolute;
+  width: 150px;
+
+  top: 60px;
+  left: -5%;
+  font-size: 13px;
+  font-weight: 500;
+
+  transition: 0.3s;
+  display: block;
+  transform: scale(1);
+
+  background-color: #b4ad9e25;
+  color: #626262;
+
+  padding: 10px 5px;
+
+  text-align: center;
 }

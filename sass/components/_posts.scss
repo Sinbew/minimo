@@ -14,12 +14,6 @@
 }
 .posts-list-item {
   flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
-
-  transition: 0.3s;
-}
-
-.posts-list-item:hover {
-  transform: scale(1.01);
 }
 
 .post-list-category {
