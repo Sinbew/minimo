@@ -290,10 +290,6 @@ body {
 
 .additional-post-item {
   flex-basis: calc((100% - var(--indent-2) * (var(--item) - 1)) / var(--item));
-  transition: 0.3s;
-}
-.additional-post-item:hover {
-  transform: scale(1.03);
 }
 
 .additional-post-subtile {
